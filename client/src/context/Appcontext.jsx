@@ -19,6 +19,7 @@ export const AppcontextProvider = (props) => {
     setIsSearched
   };
 
+  
   return (
     <Appcontext.Provider value={value}>
       {props.children}
